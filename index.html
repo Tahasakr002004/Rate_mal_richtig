@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rate mal richtig!</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="ueber_titel supertitel">Rate mal die richtige Nummer!</h1>
+      <p class="zwischen between">[Zwischen 1 und 20]</p>
+      <button class="btn nochmal again">Noch mal!</button>
+      <div class="nummer-box number-box">?</div>
+    </header>
+    <main>
+      <section class="links left">
+        <input type="number" class="raten guess" />
+        <button class="btn los check">Los!</button>
+      </section>
+      <section class="rechts right">
+        <p class="message nachricht">Starte zu raten...</p>
+        <p class="label-try label-versuch">⏳ Noch Versuche : <span class=" try versuche ">20</span></p>
+        <p class="label-score label-punkte">💯 Punkte : <span class="score punkt">0</span></p>
+        <p class="label-highscore label-gpunkt">
+          🥇 Gesamte Punkte: <span class="g_punkt">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+</html>
